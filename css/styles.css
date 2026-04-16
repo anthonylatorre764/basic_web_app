@@ -1,0 +1,66 @@
+html {
+    background-color: #202A34;
+    color: #FBFAF5;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+
+
+/* NavBar */
+
+ul {
+    list-style-type: none;           /* removes bullet points from list */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+ul li {
+    float: left;            /* makes <li> elements float next to each other */
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;          /* removes underlines from links */
+}
+
+ul li a:hover {
+    background-color: #111111;
+}
+
+
+
+/* Sections */
+
+.section-left {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+
+.section-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 40px
+}
+
+.text-box {
+    background: grey;
+    padding: 25px;
+    max-width: 600px;
+    border-radius: 8px;
+    margin-top: 50px;
+}
