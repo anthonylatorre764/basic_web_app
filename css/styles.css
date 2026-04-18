@@ -1,3 +1,5 @@
+/* All Pages */
+
 html {
     background-color: #202A34;
     color: #FBFAF5;
@@ -8,25 +10,52 @@ h1 {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: auto;
     padding: 40px 20px;
 }
 
 
 
+/* Site Header */
+
+img {
+    width: 80px;
+    margin-left: 23px;
+}
+
+.site-header {
+    background-color: rgba(107, 102, 102, 0.246);
+    display: flex;
+    justify-content: space-between;     /* along main-axis */
+    align-items: center;                /* along cross-axis */
+}
+
+
+
 /* NavBar */
 
+.navbar {
+    margin-right: 40px;
+}
+
 ul {
+    display: flex;
+    justify-content: center;
     list-style-type: none;           /* removes bullet points from list */
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333333;
+    border-radius: 5px;
+}
+
+li {
+    height: 100%;
 }
 
 ul li {
-    float: left;            /* makes <li> elements float next to each other */
+    float: right;        /* makes <li> elements float next to each other */
 }
 
 ul li a {
@@ -39,6 +68,7 @@ ul li a {
 
 ul li a:hover {
     background-color: #111111;
+    border-radius: 5px;
 }
 
 
@@ -58,9 +88,9 @@ ul li a:hover {
 }
 
 .text-box {
-    background: grey;
+    background: rgba(128, 128, 128, 0.085);
     padding: 25px;
-    max-width: 600px;
+    max-width: 900px;
     border-radius: 8px;
     margin-top: 50px;
 }
